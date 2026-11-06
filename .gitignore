@@ -1,0 +1,21 @@
+# Archivos compilados de Java
+*.class
+out/
+bin/
+target/
+
+# Archivos personales y temporales de IDEs
+.vscode/
+.idea/
+*.iml
+.classpath
+.project
+.settings/
+*.code-workspace
+
+# Temporales y basura del sistema operativo
+*.log
+*.tmp
+*~
+.DS_Store
+Thumbs.db
