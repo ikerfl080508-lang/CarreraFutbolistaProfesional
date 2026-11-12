@@ -14,7 +14,7 @@ Al empezar eliges el nombre, la altura y el peso de tu jugador, un equipo (Real 
 - Hay **3 partidos eliminatorios**: cuartos (Borussia Dortmund), semifinal (Arsenal) y final (Juventus).
 - En cada partido hay **3 jugadas clave** (con opciones distintas según tu posición). Cada opción puede dar un gol a favor, ningún gol o un gol en contra.
 - Si al final ganas por goles, pasas de ronda. Si pierdes, quedas eliminado. Si empatas, se decide en **penaltis**.
-- Jugar cuesta energía (30 / 35 / 40 según la ronda) y solo puedes jugar con **más de 20 de energía**.
+- Jugar cuesta **20 de energía** por partido y solo puedes jugar con **más de 20 de energía**.
 - **Entrenar** da +50 puntos y +100 € pero cuesta 25 de energía.
 - **Descansar en el spa** cuesta 150 € y recupera 40 de energía (máximo 100).
 - Si tu energía llega a 0, pierdes la temporada.
@@ -43,7 +43,7 @@ También puedes ejecutarlo sin compilar a mano:
 java src/Carreraprofesional.java
 ```
 
-En Windows, si ves caracteres raros (tildes o símbolos), ejecuta antes `chcp 65001` en la terminal. En VS Code basta con abrir `src/Carreraprofesional.java` y pulsar *Run*.
+En VS Code basta con abrir `src/Carreraprofesional.java` y pulsar *Run*.
 
 ## Estructura del repositorio
 
@@ -52,11 +52,11 @@ En Windows, si ves caracteres raros (tildes o símbolos), ejecuta antes `chcp 65
 ├── src/
 │   └── Carreraprofesional.java   # código fuente del juego
 ├── docs/
-│   └── Memoria.pdf               # memoria del proyecto
+│   └── Iker_Flores_MemoriaVideojuego_v1.1.pdf               # memoria del proyecto
 ├── .gitignore
 └── README.md
 ```
 
 ## Versión
 
-`v1.0-primera-evaluacion`
+`v1.1-primera-evaluacion`
